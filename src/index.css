@@ -1,0 +1,49 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.input{
+    outline:none;
+    border:none;
+}
+
+
+@media (max-width :768px) {
+    .side-movie-container{
+      width: 100%;
+    }
+    #main{
+      padding-inline: 2rem;
+    }
+    .video_container{
+      height: 50vh;
+    }
+    .navproperties{
+      height: 60vh;
+      width: 10rem;
+      border-radius: 10px 0 0 10px;
+      position: absolute;
+      gap: 10px;
+      right: 0;
+      top: 60px;
+      background-color: #f54949ab;
+      padding-top: 20px;
+      z-index: 10;
+    }
+  }
+  @media (max-width: 1024px) {
+    .navproperties{
+      height: 60vh;
+      width: 10rem;
+      border-radius: 10px 0 0 10px;
+      position: absolute;
+      gap: 10px;
+      right: 0;
+      top: 60px;
+      background-color: #f54949ab;
+      padding-top: 20px;
+      z-index: 10;
+    }
+  }
